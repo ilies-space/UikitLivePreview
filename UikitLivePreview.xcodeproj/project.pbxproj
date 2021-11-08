@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB5517E82728077D005C0550 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5517E72728077D005C0550 /* StatusBadge.swift */; };
+		FB5BCE9D27313E2400FFE4F4 /* ErrorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5BCE9C27313E2400FFE4F4 /* ErrorImageView.swift */; };
 		FB7D04B5271EE34700375484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D04B4271EE34700375484 /* AppDelegate.swift */; };
 		FB7D04B9271EE34700375484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D04B8271EE34700375484 /* ViewController.swift */; };
 		FB7D04BE271EE34900375484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7D04BD271EE34900375484 /* Assets.xcassets */; };
 		FB7D04C1271EE34900375484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7D04BF271EE34900375484 /* LaunchScreen.storyboard */; };
 		FB7D04C9271EE9C700375484 /* LivePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D04C8271EE9C700375484 /* LivePreview.swift */; };
+		FB7D04CD271EF32B00375484 /* TripStatusBadg.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D04CC271EF32B00375484 /* TripStatusBadg.swift */; };
+		FBF1986E2725613100DD7C58 /* RequestTripInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1986D2725613100DD7C58 /* RequestTripInvoiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB5517E72728077D005C0550 /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		FB5BCE9C27313E2400FFE4F4 /* ErrorImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorImageView.swift; sourceTree = "<group>"; };
 		FB7D04B1271EE34700375484 /* UikitLivePreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UikitLivePreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7D04B4271EE34700375484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7D04B8271EE34700375484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		FB7D04C0271EE34900375484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB7D04C2271EE34900375484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB7D04C8271EE9C700375484 /* LivePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LivePreview.swift; path = "../../../Downloads/live-preview-demo-main/live-preview-demo/LivePreview.swift"; sourceTree = "<group>"; };
+		FB7D04CC271EF32B00375484 /* TripStatusBadg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStatusBadg.swift; sourceTree = "<group>"; };
+		FBF1986D2725613100DD7C58 /* RequestTripInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTripInvoiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				FB7D04B4271EE34700375484 /* AppDelegate.swift */,
 				FB7D04B8271EE34700375484 /* ViewController.swift */,
+				FB7D04CC271EF32B00375484 /* TripStatusBadg.swift */,
+				FBF1986D2725613100DD7C58 /* RequestTripInvoiceView.swift */,
+				FB5517E72728077D005C0550 /* StatusBadge.swift */,
 				FB7D04BD271EE34900375484 /* Assets.xcassets */,
 				FB7D04BF271EE34900375484 /* LaunchScreen.storyboard */,
 				FB7D04C2271EE34900375484 /* Info.plist */,
 				FB7D04C8271EE9C700375484 /* LivePreview.swift */,
+				FB5BCE9C27313E2400FFE4F4 /* ErrorImageView.swift */,
 			);
 			path = UikitLivePreview;
 			sourceTree = "<group>";
@@ -134,8 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7D04CD271EF32B00375484 /* TripStatusBadg.swift in Sources */,
 				FB7D04B9271EE34700375484 /* ViewController.swift in Sources */,
 				FB7D04B5271EE34700375484 /* AppDelegate.swift in Sources */,
+				FB5BCE9D27313E2400FFE4F4 /* ErrorImageView.swift in Sources */,
+				FB5517E82728077D005C0550 /* StatusBadge.swift in Sources */,
+				FBF1986E2725613100DD7C58 /* RequestTripInvoiceView.swift in Sources */,
 				FB7D04C9271EE9C700375484 /* LivePreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
